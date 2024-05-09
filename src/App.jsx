@@ -18,7 +18,9 @@ function App() {
             <img src="/logo.png" alt="" />
           </div>
           <div className="text-center text-red-800 text-lg font-bold flex flex-col gap-2">
-            <div>Delivery Available</div>
+            <div className="bg-red-800 text-gray-100 p-3 rounded-md font-extrabold">
+              Delivery Available
+            </div>
             <div>Delivery Time: 12PM To 2AM</div>
             <div>Contact: 9811198594 &nbsp;|&nbsp; 056-000000</div>
           </div>
