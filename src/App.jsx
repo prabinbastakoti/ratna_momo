@@ -15,7 +15,7 @@ function App() {
       <div className=" dark:bg-gray-950 bg-gray-200 opacity-[93%] dark:opacity-[90%]  min-h-screen flex flex-col gap-10 px-6 pt-10 pb-20 font-Montserrat">
         <div className="flex flex-col gap-6 items-center justify-between mb-6">
           <div>LOGO</div>
-          <div className="text-sm font-semibold flex flex-col gap-2">
+          <div className="text-sm font-semibold flex flex-col gap-2 dark:text-gray-100">
             <div>Delivery Available</div>
             <div>Delivery Time: 12PM to 2AM</div>
             <div>
