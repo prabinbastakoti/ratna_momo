@@ -15,8 +15,8 @@ function App() {
       <div className="mb-3 absolute z-10 w-full pt-10">
         <img src="/logo.png" alt="" className="w-60 mx-auto mb-12" />
         <div className="flex flex-col gap-6 items-center justify-between mb-6">
-          <div className="text-center text-black font-bold flex flex-col gap-2">
-            <div className="bg-green-800 text-gray-100 py-3 rounded-sm uppercase">
+          <div className="text-center text-black font-bold flex flex-col gap-2 w-full">
+            <div className="w-[70%] mx-auto bg-green-800 text-gray-100 py-3 rounded-sm uppercase tracking-widest">
               Home Delivery Available
             </div>
             <div>Delivery Time: 12PM To 2AM</div>
@@ -32,7 +32,7 @@ function App() {
           return <SingleCategory data={item} key={index} />;
         })}
         <div className="text-center italic font-semibold text-xs mt-8">
-          "Food is the ingredient that bind us together"
+          "Roll with Us for a Taste Adventure!"
         </div>
       </div>
     </div>
