@@ -12,33 +12,24 @@ function App() {
         backgroundPosition: 'center',
       }}
     >
-      <div className=" dark:bg-gray-950 bg-gray-200 opacity-[93%] dark:opacity-[90%]  min-h-screen flex flex-col gap-10 px-6 pt-10 pb-20 font-Montserrat">
+      <div className="bg-gray-200 opacity-90 min-h-screen flex flex-col gap-10 px-6 pt-10 pb-20 font-Montserrat">
         <div className="flex flex-col gap-6 items-center justify-between mb-6">
-          <div className="dark:hidden mb-3">
+          <div className="mb-3">
             <img src="/light.png" alt="" />
           </div>
-          <div className="hidden dark:block mb-3">
-            <img src="/dark.png" alt="" />
-          </div>
-          <div className="text-sm font-semibold flex flex-col gap-2 dark:text-gray-100">
+          <div className="text-center text-lg font-bold flex flex-col gap-2">
             <div>Delivery Available</div>
             <div>Delivery Time: 12PM to 2AM</div>
-            <div>
-              <div>Delivery Cost: Rs. 20 - Rs. 40</div>
-              <div className="italic font-medium">
-                (depending on the delivery location)
-              </div>
-            </div>
             <div>Contact: 9811198594 &nbsp;|&nbsp; 056-000000</div>
           </div>
         </div>
-        <div className="text-center font-extrabold dark:text-gray-50 text-4xl tracking-wide ">
+        <div className="text-center font-extrabold text-4xl tracking-wide ">
           MENU
         </div>
         {MenuData.map((item, index) => {
           return <SingleCategory data={item} key={index} />;
         })}
-        <div className="text-center italic font-semibold text-xs dark:text-gray-400 text-gray-600">
+        <div className="text-center italic font-semibold text-xs">
           "Food is the ingredient that bind us together"
         </div>
       </div>
