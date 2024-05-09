@@ -30,7 +30,7 @@ const menuData = [
   {
     category: 'mutton item',
     items: [
-      { itemName: 'Mutton Taas', rate: '450' },
+      { itemName: 'Mutton Taas', rate: '400' },
       { itemName: 'Mutton Bhutan', rate: '280' },
       { itemName: 'Mutton Head Boil', rate: '380' },
     ],

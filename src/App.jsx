@@ -16,7 +16,7 @@ function App() {
         <img src="/logo.png" alt="" className="w-60 mx-auto mb-10" />
         <div className="flex flex-col gap-6 items-center justify-between mb-6">
           <div className="text-center text-black font-bold flex flex-col gap-2">
-            <div className="bg-green-800 text-gray-100 px-3 py-2 rounded-sm">
+            <div className="bg-green-800 text-gray-100 p-3 rounded-sm">
               Delivery Available
             </div>
             <div>Delivery Time: 12PM To 2AM</div>
