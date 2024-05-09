@@ -6,7 +6,7 @@ const SingleCategory = ({ data }) => {
     <div className="border-2 border-gray-500 rounded-xl p-8">
       <div className="flex items-center justify-between mb-8 gap-1">
         <div className="h-1 bg-red-800 w-full rounded-2xl"></div>
-        <div className="uppercase px-3 font-extrabold text-lg whitespace-nowrap text-gray-100 tracking-widest bg-red-800">
+        <div className="uppercase px-3 font-extrabold text-lg whitespace-nowrap text-gray-100 tracking-widest bg-red-800 -skew-x-6 rounded-sm">
           {data.category}
         </div>
         <div className="h-1 bg-red-800 w-full rounded-2xl"></div>
@@ -23,7 +23,7 @@ const SingleCategory = ({ data }) => {
             return (
               <div>
                 <div className="mb-5 flex justify-center">
-                  <h1 className="py-1 uppercase text-gray-100 font-bold tracking-wide text-center bg-red-800 px-3">
+                  <h1 className="py-1 uppercase text-gray-100 font-bold tracking-wide text-center bg-red-800 px-3 -skew-x-6 rounded-sm">
                     {item.type}
                   </h1>
                 </div>
