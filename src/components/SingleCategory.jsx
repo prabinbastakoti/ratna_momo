@@ -4,26 +4,26 @@ const SingleCategory = ({ data }) => {
   console.log(data);
   return (
     <div className="border-2 border-gray-500 rounded-xl p-8">
-      <div className="flex items-center justify-between mb-8">
-        <div className="h-1 bg-red-600 w-full rounded-2xl"></div>
-        <div className="uppercase px-3 font-extrabold text-lg whitespace-nowrap text-gray-950 tracking-widest">
+      <div className="flex items-center justify-between mb-8 gap-1">
+        <div className="h-1 bg-red-800 w-full rounded-2xl"></div>
+        <div className="uppercase px-3 font-extrabold text-lg whitespace-nowrap text-gray-100 tracking-widest bg-red-800">
           {data.category}
         </div>
-        <div className="h-1 bg-red-600 w-full rounded-2xl"></div>
+        <div className="h-1 bg-red-800 w-full rounded-2xl"></div>
       </div>
       <div className="flex flex-col gap-3">
-        {data.category !== 'beverage' &&
+        {data.category !== 'beverages' &&
           data.items.map((item, index) => {
             return <SingleItem item={item} key={index} />;
           })}
       </div>
-      <div className="flex flex-col gap-8">
-        {data.category === 'beverage' &&
+      <div className="flex flex-col gap-8 pt-3">
+        {data.category === 'beverages' &&
           data.items.map((item, index) => {
             return (
               <div>
-                <div className="mb-5">
-                  <h1 className="pb-2 uppercase border-b-2 border-red-600 text-gray-950 font-bold tracking-wide text-center">
+                <div className="mb-5 flex justify-center">
+                  <h1 className="py-1 uppercase text-gray-100 font-bold tracking-wide text-center bg-red-800 px-3">
                     {item.type}
                   </h1>
                 </div>

@@ -36,7 +36,7 @@ const menuData = [
     ],
   },
   {
-    category: 'beverage',
+    category: 'beverages',
     items: [
       {
         type: 'beer',
