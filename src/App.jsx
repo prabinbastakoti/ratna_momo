@@ -15,11 +15,11 @@ function App() {
       <div className="bg-gray-200 opacity-90 min-h-screen flex flex-col gap-10 px-6 pt-10 pb-20 font-Montserrat">
         <div className="flex flex-col gap-6 items-center justify-between mb-6">
           <div className="mb-3">
-            <img src="/light.png" alt="" />
+            <img src="/logo.png" alt="" />
           </div>
-          <div className="text-center text-lg font-bold flex flex-col gap-2">
+          <div className="text-center text-red-900 text-lg font-bold flex flex-col gap-2">
             <div>Delivery Available</div>
-            <div>Delivery Time: 12PM to 2AM</div>
+            <div>Delivery Time: 12PM To 2AM</div>
             <div>Contact: 9811198594 &nbsp;|&nbsp; 056-000000</div>
           </div>
         </div>
