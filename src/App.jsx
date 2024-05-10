@@ -19,7 +19,7 @@ function App() {
             <div className="w-[80%] mx-auto bg-red-800 text-gray-100 py-3 rounded-sm uppercase tracking-wider text-sm">
               Free Home Delivery Available
             </div>
-            <div>Delivery Time: 12PM To 2AM</div>
+            <div>Delivery Time: 12PM - 2AM</div>
             <div>Contact: &nbsp;9811198594 &nbsp;|&nbsp; 056-000000</div>
           </div>
         </div>
