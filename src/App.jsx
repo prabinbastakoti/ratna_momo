@@ -24,7 +24,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="w-full pt-[550px] bg-gray-50 opacity-90 min-h-screen flex flex-col gap-4 px-6 pb-20 font-Montserrat">
+      <div className="w-full pt-[550px] bg-gray-200 opacity-[93%] min-h-screen flex flex-col gap-4 px-6 pb-20 font-Montserrat">
         <div className="text-center font-extrabold text-4xl tracking-wide ">
           MENU
         </div>
