@@ -52,10 +52,10 @@ const SingleCategory = ({ data }) => {
               />
             </div>
             <div className="flex flex-col gap-1 mt-8 text-center">
-              <h1 className="font-bold text-lg uppercase text-red-800">
+              <h1 className="font-bold uppercase text-red-800">
                 {data.items[0].itemName}
               </h1>
-              <h2 className="font-bold">
+              <h2 className="font-bold text-sm">
                 Rs. {data.items[0].rate} per 8 pieces
               </h2>
             </div>
