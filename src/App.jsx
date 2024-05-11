@@ -13,9 +13,9 @@ function App() {
       }}
     >
       <div className="w-full bg-gray-200 opacity-[93%] min-h-screen flex flex-col gap-4 px-3 pb-12 font-Montserrat">
-        <div className="mb-6 w-full pt-2">
-          <img src="/logo.jpg" alt="" className="w-60 mx-auto" />
-          <div className="flex flex-col gap-6 items-center justify-between mb-6">
+        <div className="mb-6 w-full mt-10">
+          <img src="/logo.svg" alt="" className="w-60 mx-auto" />
+          <div className="flex flex-col gap-6 items-center justify-between my-8">
             <div className="text-center text-black font-bold flex flex-col gap-2 w-full text-sm">
               <div className="w-[85%] mx-auto bg-red-800 text-gray-100 py-2 rounded-sm uppercase text-sm font-bold">
                 Free Home Delivery Available !
