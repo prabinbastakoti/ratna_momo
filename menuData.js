@@ -53,13 +53,16 @@ const menuData = [
         type: 'beer',
         item: [
           { itemName: 'Tuborg', rate: '500' },
+          { itemName: 'Tuborg Can', rate: '350' },
           { itemName: 'Gorkha Premium', rate: '460' },
           { itemName: 'Gorkha Strong', rate: '430' },
-          { itemName: 'Mini Gorkha', rate: '220' },
+          { itemName: 'Gorkha Strong Can', rate: '290' },
+          { itemName: 'Gorkha Mini', rate: '220' },
           { itemName: 'Budweiser', rate: '460' },
           { itemName: 'Barahsinghe (Pilsner Bier)', rate: '460' },
           { itemName: 'Barahsinghe (Belgian Witbier)', rate: '250' },
           { itemName: 'Carlsberg', rate: '600' },
+          { itemName: 'Carlsberg Can', rate: '400' },
         ],
       },
       {
