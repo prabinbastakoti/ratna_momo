@@ -2,10 +2,10 @@ import SingleItem from './SingleItem';
 
 const SingleCategory = ({ data }) => {
   return (
-    <div className="px-8 pb-8">
+    <div className="px-8 pb-8 md:px-96">
       <div className="flex items-center justify-between mb-8 gap-1">
         <div className="h-1 bg-red-800 w-full rounded-2xl"></div>
-        <div className="uppercase px-3 font-extrabold text-lg whitespace-nowrap text-gray-100 tracking-widest bg-red-800 -skew-x-6 rounded-sm">
+        <div className="uppercase px-3 font-extrabold text-lg md:text-2xl whitespace-nowrap text-gray-100 tracking-widest bg-red-800 -skew-x-6 rounded-sm">
           {data.category}
         </div>
         <div className="h-1 bg-red-800 w-full rounded-2xl"></div>
@@ -23,7 +23,7 @@ const SingleCategory = ({ data }) => {
             return (
               <div>
                 <div className="mb-5 flex justify-center">
-                  <h1 className="py-1 uppercase text-gray-100 font-bold tracking-wide text-center bg-red-800 px-3 -skew-x-6 rounded-sm">
+                  <h1 className="py-1 uppercase text-gray-100 font-bold tracking-wide text-center bg-red-800 px-3 -skew-x-6 rounded-sm md:text-lg">
                     {item.type}
                   </h1>
                 </div>
@@ -43,19 +43,19 @@ const SingleCategory = ({ data }) => {
               <img
                 src="/special1.jpg"
                 alt=""
-                className="w-44 h-44 object-cover"
+                className="w-44 h-44 object-cover md:w-80 md:h-80"
               />
               <img
                 src="/special2.jpg"
                 alt=""
-                className="w-44 h-44 object-cover"
+                className="w-44 h-44 object-cover md:w-80 md:h-80"
               />
             </div>
             <div className="flex flex-col gap-1 mt-8 text-center">
-              <h1 className="font-bold uppercase text-red-800">
+              <h1 className="font-bold uppercase text-red-800 md:text-lg">
                 {data.items[0].itemName}
               </h1>
-              <h2 className="font-bold text-sm">
+              <h2 className="font-bold text-sm md:text-lg">
                 Rs. {data.items[0].rate} per 8 pieces
               </h2>
             </div>
